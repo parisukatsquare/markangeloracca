@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    margin: 40px auto;
+    width: 650px;
+    outline-color: red;
+}
+
+#floats {
+    background: #d41;
+}
+
+#floats #container {
+    background: white;
+    padding: 20px;
+}
+
+#mark1 {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+#mark2 {
+    float: right;
+    margin: 0 0 10px 20px;
+}
+
+profile {
+    display: block;
+    margin: 0 0 40px 0;
+    
+}
+
+.thumbnails {
+    margin: 0 auto;
+}
+
+div.thumbox {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin: 10px;
+}
+
+#yacht {
+    margin: 0 auto;
+    width: 100%;
+}
+
+#top-content {
+    background: #555;
+}
+
+#mainColumn {
+/*    display: inline-block;*/
+    width: 360px;
+    float: left;
+    background: #555;
+    color:aliceblue;
+    padding: 20px;
+}
+#sidebar {
+/*    display: inline-block;*/
+    padding: 20px;
+    width: 250px;
+    float: right;
+    background: #fc3;
+}
+
+
+#content-bottom {
+    clear: both;
+}
+
+#footer {
+    clear: both;
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
