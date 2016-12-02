@@ -103,6 +103,10 @@ h6, .h6 {
   line-height: 1.5;
 }
 
+.blog-main p {
+    text-align: justify;
+}
+
 /* Sidebar modules for boxing content */
 .sidebar-module {
   padding: 15px;

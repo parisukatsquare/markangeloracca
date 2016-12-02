@@ -4,9 +4,11 @@
 }
 
 #container {
+    background-color: red;
     margin: 40px auto;
     width: 650px;
     outline-color: red;
+    box-shadow: 1px 2px 4px black;
 }
 
 #floats {
@@ -77,10 +79,11 @@ div.thumbox {
 }
 
 #footer {
+    
     clear: both;
     background: #333;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 
 .clearfix:after {

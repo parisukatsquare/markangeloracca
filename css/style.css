@@ -6,3 +6,131 @@
     
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body {
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.container {
+    width: 920px;
+    background: white;
+    box-shadow: 3px 3px 3px black;
+}
+
+.levelzeroheader {
+    background: orange;
+    width: inherit;
+    margin: 0 0 0 -15px;
+    padding: 0;
+}
+
+
+#logo {
+    padding: 30px 0 0 0;
+    background: url('../img/parisukatsquare-realty-company-logo.png') top left no-repeat;
+    background-size: 100%;
+    width: 120px;
+    height: 98px;
+}
+.brand {
+    height: 200px;
+    width: 700px;
+    margin: 0 0 0 40px;
+    padding: 20px;
+}
+
+div.info div {
+    color: black;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    display: block;
+}
+
+/* Social Media Styling --------------------------------------- */
+div#socialmedia nav {
+    float: right;
+    padding: 20px;
+}
+div#socialmedia nav ul li {
+    display: inline;
+} /* End of Social Media Styling */
+
+/* Navigation Header Styling ---------------------------------- */
+div#navigation-header {
+    display: table;
+    margin: 0 auto;
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+.table {
+    display: table;
+    margin: 0 auto;
+/*
+    padding: 10px;
+    margin: 0 0 0 0px;
+*/
+}
+
+div#navigation-header ul {
+    text-align: center;
+}
+div#navigation-header ul li {
+    display: inline-block;
+    float: none;
+    padding: 10px 20px 0 0px;
+} 
+
+div#navigation-header ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+div#navigation-header div ul li a:link,
+div#navigation-header div ul li a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+div#navigation-header div ul li a:hover {
+    color: orange;
+}
+
+/* End of Navigation Header Styling */
+
+
+/*
+.works ul {
+    columns: 2;
+}
+*/
+
+.footer {
+/*
+    position: ;
+    bottom: 0;
+*/
+/*    left: 0;*/
+}
+
+footer {
+    width: inherit;
+    margin: 0 0 0 -15px;;
+    padding: 20px 0 20px 0 ;
+    background-color: black;
+}
+
+footer p {
+    font-family: Arial, sans-serif;
+    color: darkorange;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+

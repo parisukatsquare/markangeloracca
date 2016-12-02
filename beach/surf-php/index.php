@@ -8,6 +8,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title><?php echo TITLE; ?></title>
+        
+        <!-- W3 Data Include -->
+        <link rel="stylesheet" href="../../../includes/css/site-navigation.css">
+        <script src="http://www.w3schools.com/lib/w3data.js"></script>
     </head>
     
     <body>
@@ -81,6 +85,9 @@
             ?>
             
         </div>
+        
+        <div w3-include-html="../../../includes/site-navigation.html"></div>
+        <script>w3IncludeHTML();</script>
     </body>
     
 </html>
